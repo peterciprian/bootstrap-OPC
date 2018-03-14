@@ -1,0 +1,169 @@
+li :hover {
+    color: white;
+}
+
+li {
+    color: gray;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+#start {
+    background-image: url('/img/bg-pattern.png');
+    background-image: url('/img/bg-pattern.png'), linear-gradient(to right, rgba(255, 0, 26, .8), rgba(150, 0, 255, .8));
+    background-repeat: repeat;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+#stop-start {
+    background-image: url('/img/bg-cta.jpg'), linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8));
+    background-position: center;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+#stop-start h1 {
+    margin-top: 250px;
+}
+
+#unlimited {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+#unlimited h1 {
+    color: rgb(22, 22, 22);
+}
+
+#discover {
+    background-color: rgb(253, 253, 72);
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+navbar {
+    background: white;
+}
+
+button {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 15px 50px;
+    transition-property: color, border-color;
+    transition-duration: 300ms;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+p,
+footer {
+    font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
+button:hover {
+    color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+#start img {
+    border-radius: 10pt;
+    width: 300px;
+}
+
+#unlimited img {
+    border-radius: 10pt;
+    width: 300px;
+}
+
+#discover img {
+    width: 200px;
+}
+
+.white {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.black {
+    color: rgb(43, 43, 43);
+    margin-bottom: 50px;
+}
+
+.red {
+    color: rgb(189, 30, 38);
+}
+
+.icons div {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.twitter {
+    color: white;
+    background-color: rgba(0, 132, 180, .8)
+}
+
+.google {
+    color: white;
+    background-color: rgba(216, 75, 55, .8)
+}
+
+.facebook {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.8)
+}
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*h1 {
+    font-size: 50pt;
+}
+
+h2 {
+    font-size: 40 pt;
+}
+
+h3 {
+    font-size: 35 pt;
+}
+
+h4 {
+    font-size: 30 pt;
+}*/
+
+.col-xs-12 {
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.glyphicon {
+    font-size: 4em;
+    color: rgb(128, 0, 75);
+}
